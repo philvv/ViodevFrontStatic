@@ -1,18 +1,32 @@
-#hero-section .hero-img {
-    -webkit-filter: drop-shadow(-1px 0px 35px rgba(0, 0, 0, 0.55));
-    filter: drop-shadow(-1px 0px 35px rgba(0, 0, 0, 0.55));
+#hero-section {
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+
+#hero-section::after {
+    content: "";
+    background-image: url("../images/coding.jpg");
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #about-section, #contact-section {
-    background: rgb(21, 4, 29);
-    background: -moz-linear-gradient(319deg, rgba(21, 4, 29, 1) 0%, rgba(33, 7, 46, 1) 100%);
-    background: -webkit-linear-gradient(319deg, rgba(21, 4, 29, 1) 0%, rgba(33, 7, 46, 1) 100%);
-    background: linear-gradient(319deg, rgba(21, 4, 29, 1) 0%, rgba(33, 7, 46, 1) 100%);
+    background: rgb(102,41,173);
+    background: radial-gradient(circle, rgba(102,41,173,1) 25%, rgba(50,6,101,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15041d", endColorstr="#21072e", GradientType=1);
 }
 
 #tech-section h1 {
-    color: #310b45;
+    color: #6629ad;
 }
 
 #tech-section .tech-text {
@@ -24,6 +38,17 @@
 
 #tech-section .tech-text p {
     color: #343a40;
+}
+
+#tech-section::after {
+    content: "";
+    background-image: url("../images/trading.jpg");
+    opacity: 0.1;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #about-section, #contact-section, h1, h2, h3, h4, h5, i, p, address {
@@ -82,7 +107,7 @@
 }
 
 #footer-section i {
-    color: #310b45;
+    color: #6629ad;
 }
 
 /*Phones */
@@ -132,7 +157,7 @@ and (min-device-width: 1200px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
     .intro-container {
-        margin-top: 15vh;
+        margin-top: 15%;
     }
 
     #tech-section .tech-text {
@@ -140,9 +165,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
         text-align: right;
     }
 
-    #hero-section .hero-img {
-        top: -68px;
-    }
 
     .card {
         height: 100%;

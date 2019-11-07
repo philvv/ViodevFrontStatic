@@ -6,19 +6,18 @@
 
 .btn-contact {
     border-radius: 30px;
-    background: rgb(21, 4, 29);
-    background: -moz-linear-gradient(319deg, rgba(21, 4, 29, 1) 0%, rgba(33, 7, 46, 1) 100%);
-    background: -webkit-linear-gradient(319deg, rgba(21, 4, 29, 1) 0%, rgba(33, 7, 46, 1) 100%);
-    background: linear-gradient(319deg, rgba(21, 4, 29, 1) 0%, rgba(33, 7, 46, 1) 100%);
+    background: rgb(102,41,173);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15041d", endColorstr="#21072e", GradientType=1);
     color: #f4f4f4;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    border-color: rgb(102,41,173);
 }
 
 .btn-contact:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #320665;
     color: #f4f4f4;
+    border-color: #320665;
 }
 
 .navbar-nav li.active > a {
@@ -27,13 +26,13 @@
 }
 
 .navbar-nav .nav-item a:hover {
-    color: #15041d !important;
+    color: #6629ad !important;
     transition: background 0.3s ease-in;
     text-decoration: none !important;
 }
 
 .primary-text {
-    color: #15041d !important;
+    color: #6629ad !important;
 }
 
 .navbar-light .navbar-toggler {
