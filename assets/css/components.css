@@ -6,18 +6,18 @@
 
 .btn-contact {
     border-radius: 30px;
-    background: rgb(102,41,173);
+    background: #24334c;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15041d", endColorstr="#21072e", GradientType=1);
     color: #f4f4f4;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    border-color: rgb(102,41,173);
+    border-color: #24334c;
 }
 
 .btn-contact:hover {
-    background-color: #320665;
+    background-color: #1f2a40;
     color: #f4f4f4;
-    border-color: #320665;
+    border-color: #1f2a40;
 }
 
 .navbar-nav li.active > a {
@@ -26,13 +26,13 @@
 }
 
 .navbar-nav .nav-item a:hover {
-    color: #6629ad !important;
+    color: #24334c !important;
     transition: background 0.3s ease-in;
     text-decoration: none !important;
 }
 
 .primary-text {
-    color: #6629ad !important;
+    color: #24334c !important;
 }
 
 .navbar-light .navbar-toggler {

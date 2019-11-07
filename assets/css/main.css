@@ -20,13 +20,13 @@
 }
 
 #about-section, #contact-section {
-    background: rgb(102,41,173);
-    background: radial-gradient(circle, rgba(102,41,173,1) 25%, rgba(50,6,101,1) 100%);
+    background: rgb(36,51,76);
+    background: radial-gradient(circle, rgba(36,51,76,1) 25%, rgba(31,42,64,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15041d", endColorstr="#21072e", GradientType=1);
 }
 
 #tech-section h1 {
-    color: #6629ad;
+    color: #24334c;
 }
 
 #tech-section .tech-text {
@@ -107,7 +107,7 @@
 }
 
 #footer-section i {
-    color: #6629ad;
+    color: #24334c;
 }
 
 /*Phones */
