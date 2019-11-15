@@ -20,13 +20,12 @@
 }
 
 #about-section, #contact-section {
-    background: rgb(36,51,76);
-    background: radial-gradient(circle, rgba(36,51,76,1) 25%, rgba(31,42,64,1) 100%);
+    background: #2c2865;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15041d", endColorstr="#21072e", GradientType=1);
 }
 
 #tech-section h1 {
-    color: #24334c;
+    color: #2c2865;
 }
 
 #tech-section .tech-text {
